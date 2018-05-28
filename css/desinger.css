@@ -27,9 +27,7 @@ body{
 
     position: absolute;
     width: 100%;
-    height: 4vh;
-    left: 0px;
-    top: 0px;
+    height: 3vmax;
 
 
     background: #FFFFFF;
@@ -38,7 +36,14 @@ body{
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
 }
 
-deca{
+
+
+.deca{
     height: 100vh;
     background: #d3d9df;
+}
+
+.ria{
+    margin-left: 22vmax;
+    margin-top: 2vmax;
 }
