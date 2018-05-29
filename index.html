@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/desinger.css" type="text/css">
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/addLayer.js"></script>
 
     <style>
 
@@ -17,7 +18,7 @@
              font-family: Verdana, Geneva, sans-serif;
              font-size: 14px;
              color: #333;
-             text-align: center;
+
 
          }
 
@@ -27,9 +28,8 @@
             padding: 0 auto;
         }
         h4{
-            background: grey;
-            color: #fff;
-            padding: 0px 0 0px 10px;
+            background: #F5F5F5;
+            color: black;
             margin-bottom: 3px;
             text-align: left;
             cursor: pointer;
@@ -64,32 +64,35 @@
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 row ">
 
-            <div id="accordion-js" class="accordion">
+            <div id="accordion-js" class="accordion th4">
                 <h2>Выберите количество этажей торта</h2>
-                <div>
-                    <p class="th4">Количество</p>
+                <div >
+
+                    <p class="divi">Количество</p>
+                    <!--TODO подключите поле-->
+                    <input id="count-floor" class="th4" maxlength="2" size="6">
 
                 </div>
-                <h2>Заголовок 2</h2>
+                <h2>Этажи</h2>
 
-                <div class="cont">
-                    <h4 >#Title</h4> <!-- title -->
+                <div  class="cont">
+                    <h4 >Слой 1</h4> <!-- title -->
                     <div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
                     </div> <!-- container hide text -->
 
                     <h4>#Title</h4> <!-- title -->
                     <div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
                     </div> <!-- container hide text -->
 
                     <h4>#Title</h4> <!-- title -->
                     <div>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
                     </div> <!-- container hide text -->
                 </div>
                 <h2>Заголовок 3</h2>
-                <div>
+                <div id="layers">
                     <p>Здесь находится контент...</p>
                 </div>
             </div>
