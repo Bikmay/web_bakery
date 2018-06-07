@@ -1,0 +1,19 @@
+.frame05-general-div{
+    background: #563539;
+
+    width: 100%;
+    height: 16vh;
+
+}
+
+.frame05-general-div p{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+    font-size: 3vmax;
+    color: white;
+
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
