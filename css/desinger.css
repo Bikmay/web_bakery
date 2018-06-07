@@ -8,9 +8,10 @@ body{
 
 }
 
-.row {
+.row1 {
     height: 100vh;
     background: white;
+    padding: 0;
 }
 
 .sections {
@@ -41,6 +42,7 @@ body{
 .deca{
     height: 100vh;
     background: #d3d9df;
+    padding: 0;
 }
 
 .ria{

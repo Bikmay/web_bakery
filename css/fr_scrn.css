@@ -1,5 +1,88 @@
 .cont2{
 
     height: 100vh;
-    background-image: url(/images/0.jpg);
+    background-image: url(images/0.png);
+    background-size: cover;
+
+}
+
+.frame-fr-header {
+    width: 70vw;
+    height: 14vh;
+   padding-top: 2vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+
+}
+
+.frame-fr-header p{
+
+
+    font-family: 'Old Standard TT', serif;
+    font-size: 2.4vw;
+    color: white;
+
+}
+
+.frame-fr-header ul{
+
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px;
+}
+.frame-fr-header li{
+    display:inline-block;
+}
+
+.frame-fr-header-logo{
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.frame-fr-part1-text{
+    margin-top: 18vh;
+    margin-left: 15vw;
+    margin-bottom: 10vh;
+
+    width: 30vw;
+    height: 66vh;
+
+
+}
+
+
+.frame-fr-part1-text div{
+
+    position: absolute;
+    width: 22vw;
+    height: 5vw;
+    margin-left: 4vw;
+    margin-bottom: 4vh;
+
+    background: #E75252;
+    border-radius: 12px;
+
+}
+
+.frame1-div-text{
+
+    font-size: 4vmax;
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 2vh;
+    margin-left: 4vw;
+    margin-bottom: 8vh;
+    color: white;
+
+}
+
+.frame1-button-text{
+    font-size:1.6vw;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    color:white;
+
+    font-weight: bold;
+
 }

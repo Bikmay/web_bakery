@@ -4,7 +4,7 @@ h2 {
 }
 .accordion {
   border: 1px solid #ddd; border-top: none;
-  float: left; width: 470px; position: relative;
+  float: left; width: 100%; position: relative;
 }
 .accordion a {
   display: block; text-decoration: none;
@@ -20,6 +20,7 @@ h2 {
   border-top: 1px solid #ddd;
   color: #222; font: 14px/30px 'Verdana', sans-serif;
   height: 30px; margin: 0; padding: 0; text-indent: 10px;
+
 }
 
 
