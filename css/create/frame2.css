@@ -1,0 +1,23 @@
+.header p{
+    font-size: 2vw;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    display:inline-block;
+
+}
+
+.header div {
+
+    height: 3vw;
+    width: 0.2vw;
+
+    background: black;
+    display:inline-block;
+
+}
+
+.header{
+    height: 6vw;
+    width: 32vw;
+}
