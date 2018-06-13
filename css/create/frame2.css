@@ -1,23 +1,50 @@
-.header p{
-    font-size: 2vw;
+.header{
 
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    display:inline-block;
+    height: 10vw;
+    width: 30vw;
+
+    position:  relative;
 
 }
 
-.header div {
+.t{
 
-    height: 3vw;
+    height: 2vw;
     width: 0.2vw;
 
-    background: black;
-    display:inline-block;
+    position: absolute;
+
+    background-color: black;
+    display: inline-block;
+
+    margin-top: 2.3vw;
+    margin-left: 23vw;
+}
+
+.yt{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+
+    position: absolute;
+
+    margin-top: 2vw;
+    margin-left: 3vw;
+
+}
+.yr{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8vw;
+
+    position: absolute;
+
+    margin-top: 2.3vw;
+    margin-left: 24vw;
 
 }
 
-.header{
-    height: 6vw;
-    width: 32vw;
+.img-header{
+    margin-left: 28vw;
+    margin-top: 2.65vw;
 }

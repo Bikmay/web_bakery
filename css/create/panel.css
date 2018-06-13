@@ -1,0 +1,48 @@
+.text{
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1.4vw;
+}
+
+.r{
+
+    background: white;
+    border :none;
+
+
+
+
+    height: 2vw;
+    width: 16vw;
+}
+
+.hr-pod{
+    width: 8vw;
+}
+
+.cont-division{
+    width: 40%;
+}
+.input-st{
+
+    width: 10vw;
+}
+
+.inp-hr{
+    width: 16vw;
+    height: 1px;
+    background: #6f42c1;
+}
+
+.g-div{
+    display: inline-block;
+    width: 40vw
+}
+
+
+.img-st{
+    height: 30vw;
+    width: 26vw;
+    position: absolute;
+    display: inline-block;
+}
