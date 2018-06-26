@@ -7,6 +7,7 @@
 
     margin-left: 0;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .div-header{
@@ -15,9 +16,13 @@
     width: 30vw;
 
     position: absolute;
-    margin-top: 2vw;
-    margin-left: 2vmax;
+    margin-top: 3vw;
+    margin-left: 3vmax;
 
+}
+
+.div-gen-head{
+    height: 3vw;
 }
 
 .header-stick{
@@ -28,7 +33,7 @@
 
     position: absolute;
     height: 3vmax;
-    width: 0.2vmax;
+    width: 0.15vmax;
 
     margin-left: 1vw;
     margin-top: 0.3vmax;
@@ -55,7 +60,29 @@
 }
 .panel-grid{
     margin-top: 11vmax;
-    margin-left: 2vmax;
+    margin-left: 3vmax;
 
     position: relative;
+}
+
+.time{
+    font-size: 0.85vmax;
+
+    color: #6c757d;
+
+    margin-top: 0.3vw;
+    margin-left: 0.8vmax;
+
+}
+
+.panel-comment{
+    margin-top: 1vmax;
+    margin-left: 4vmax;
+}
+.title-commnet{
+    font-size: 1.2vmax;
+    font-family: 'Roboto', serif;
+
+
+    color: black;
 }

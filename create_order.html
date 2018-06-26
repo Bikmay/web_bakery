@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:200,400,700,900&amp;subset=cyrillic" rel="stylesheet">
+
+
+
     <title>Оформление заказа</title>
 </head>
 <body>
@@ -17,27 +20,38 @@
     <div class="row">
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
             <div class="div-header">
+                <div class="div-gen-head">
                 <p class="header-text">Оформление заказа</p>
                 <div class="header-stick"></div>
                 <p class="header-text-cost">122</p>
                 <img src="res/ico_rub.svg" class="header-ico-rub">
             </div>
+                <p class="time">ti pidor ))</p>
+            </div>
 
             <div class="gen-div">
             <div class="panel-grid">
-                <p class="name">Name</p>
-                <input class="input-name" type="text">
+
+                <p id="lab-name" class="name">Name</p>
+                <input id="name_input" class="input-name" type="text">
+                <div id="name_underline" onfocus="foc()" class="hr-name"></div>
+                <script src="js/scripRegistrOrtder/fillLineName.js" type="text/javascript"></script>
+
             </div>
 
                 <div class="div-secname">
-                    <p class="secname">Ваша фамилия</p>
-                    <input type="text" class="input-secname">
+                    <p id="sername" class="secname">Ваша фамилия</p>
+                    <input id="sername_input" type="text" class="input-secname">
+                    <div id="sername_underline" class="sername-div"></div>
+                    <script src="js/scripRegistrOrtder/fillLineSername.js" type="text/javascript"></script>
+                </div>
+                <div class="panel-comment">
+                    <p class="title-commnet">Дополнительные комментарии</p>
+                    <textarea></textarea>
                 </div>
             </div>
-            <div>
-                <p>Дополнительные комментарии</p>
-                <textarea></textarea>
-            </div>
+
+
         </div>
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
     </div>
