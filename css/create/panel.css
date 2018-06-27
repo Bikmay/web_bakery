@@ -86,3 +86,17 @@
 
     color: black;
 }
+
+
+.text-area{
+    font-size: 0.9vmax;
+    background-color: #F3F3F3;
+
+    padding-left: 1vmax;
+    padding-top: 0.4vmax;
+
+    height:8vw;
+    width: 25vw;
+
+   text-overflow:ellipsis;
+}

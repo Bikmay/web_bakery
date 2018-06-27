@@ -1,5 +1,5 @@
 .name{
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-family: 'Roboto', serif;
 
     color: black;
@@ -37,10 +37,11 @@
 .gen-div{
     width:100%;
     height: 40vmax;
+    margin-top: 1vw;
 }
 
 .secname{
-    font-size: 1.5vmax;
+    font-size: 1vmax;
     font-family: 'Roboto', serif;
 
 
@@ -50,7 +51,7 @@
 
 .div-secname{
     width: 100%;
-    height: 10vmax;
+    height: 7vmax;
 
     margin-left: 3vmax;
     margin-top: 3vmax;
