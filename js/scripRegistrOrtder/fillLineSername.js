@@ -4,7 +4,7 @@ var nameDivElement =  document.getElementById("sername_underline");
 
 nameInputElement.onfocus = function () {
     console.log("jeneck pidor");
-    nameDivElement.style.backgroundColor='chartreuse';
+    nameDivElement.style.backgroundColor='#e4606d';
     nameInputElement.style.outline='none';
     document.getElementById("sername").style.color='grey';
 };
